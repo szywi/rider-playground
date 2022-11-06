@@ -1,0 +1,26 @@
+Shortcuts
+	Ctrl + T (Search everywhere)
+	Ctrl + Shift + A (Action)
+Navigation
+	Different matching
+	Search by class
+	Alt+\ (Go to member in current class)
+	Go to definition, usages
+	Navigate back/forward
+	Recent files
+		Make sure to limit them to something of value
+	Alt + ` (Navigate menu)
+	Find usages
+Editing
+    Expand/shrink selection
+    Surround with
+    Live templates
+Inspections
+    Highlighting code errors/warnings
+    Quick fixes (how you learn new language versions)
+Refactor this
+    Ctrl+Shift+R (Refactor this menu)
+    Extract interface
+Unit tests
+    Run folder
+    
