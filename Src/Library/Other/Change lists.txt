@@ -1,0 +1,2 @@
+1. Managing changelist
+2. Excluding files from commiting
