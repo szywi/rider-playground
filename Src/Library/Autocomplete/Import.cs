@@ -1,6 +1,6 @@
 ﻿namespace Library.Autocomplete;
 
-// note: Disable global using
+// note: Disable ImplicitUsings
 public sealed class Import
 {
     // Type Import

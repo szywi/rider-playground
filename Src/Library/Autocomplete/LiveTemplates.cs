@@ -2,13 +2,16 @@
 
 // Example: ctor
 // Example: ctorp
+// meth
+// smeth
+// ameth
 public sealed class LiveTemplates
 {
     public string Foo { get; set; }
 
     // Example: Surround With
-    public static void DoFoo()
+    public void DoFoo()
     {
-        Console.WriteLine("Foo");
+        Console.WriteLine(Foo);
     }
 }

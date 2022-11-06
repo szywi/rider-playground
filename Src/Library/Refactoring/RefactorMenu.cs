@@ -1,5 +1,8 @@
 ﻿namespace Library.Refactoring;
 
+// Refactor this
+// Ctrl+Shift+R (Refactor this menu)
+// Extract interface
 public sealed class RefactorMenu
 {
     public readonly int field;
