@@ -1,4 +1,4 @@
-﻿namespace Library.Navigation
+﻿namespace Library._01_Navigation.Models
 {
     public readonly struct Position
     {

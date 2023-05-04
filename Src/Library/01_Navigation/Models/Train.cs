@@ -1,8 +1,8 @@
-﻿namespace Library.Navigation
+﻿namespace Library._01_Navigation.Models
 {
-    public class Plane : VehicleBase
+    public class Train : VehicleBase
     {
-        public Plane (int seats, int maximumVelocity)
+        public Train (int seats, int maximumVelocity)
             : base(seats, maximumVelocity)
         {
         }

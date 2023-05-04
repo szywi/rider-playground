@@ -1,4 +1,6 @@
-﻿namespace Library.Navigation
+﻿using Library._01_Navigation.Interfaces;
+
+namespace Library._01_Navigation.Models
 {
     public abstract class VehicleBase : IVehicle
     {
