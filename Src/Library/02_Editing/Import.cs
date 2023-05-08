@@ -1,4 +1,4 @@
-﻿namespace Library.Autocomplete;
+﻿namespace Library._02_Editing;
 
 // note: Disable ImplicitUsings
 public sealed class Import

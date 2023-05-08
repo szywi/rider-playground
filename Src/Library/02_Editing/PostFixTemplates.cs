@@ -1,4 +1,4 @@
-﻿namespace Library.Editing;
+﻿namespace Library._02_Editing;
 
 // .var postfix
 // .foreach postfix

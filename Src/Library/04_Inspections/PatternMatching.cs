@@ -1,10 +1,9 @@
-﻿namespace Library.Analysis;
+﻿namespace Library._04_Inspections;
 
 public sealed class PatternMatching
 {
-    // Example: Merge into pattern
-    // Example: Convert into switch expression
-    public string Foo(char c)
+    // Show Quick Fixes (Alt+Enter)
+    public static string DoSomething(char c)
     {
         if (c is >= 'A' && c <= 'Z')
             return "upper-case";

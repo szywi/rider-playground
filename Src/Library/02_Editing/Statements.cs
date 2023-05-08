@@ -1,9 +1,9 @@
-﻿namespace Library.Autocomplete;
+﻿namespace Library._02_Editing;
 
 public sealed class Statements
 {
-    // Example: Complete Current Statement (Ctrl+Shift+Enter)
-    public void Foo(int number)
+    // Complete Current Statement (Ctrl+Shift+Enter)
+    public static void DoSomething(int number)
     {
         // if (number > 100 /*here*/)
         // var dict = new Dictionary<int, string /*here*/>();

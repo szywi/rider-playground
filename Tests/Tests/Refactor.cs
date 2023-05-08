@@ -1,8 +1,8 @@
 ﻿using Moq;
 
-namespace Tests.Refactoring;
+namespace Tests;
 
-public sealed class RefactorMenuTests
+public sealed class Refactor
 {
     public interface IFooService
     {
@@ -21,7 +21,7 @@ public sealed class RefactorMenuTests
 
     private BarService testee;
 
-    public RefactorMenuTests()
+    public Refactor()
     {
         var fooMock = new Mock<IFooService>();
 

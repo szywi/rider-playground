@@ -1,4 +1,4 @@
-﻿namespace Library.Editing;
+﻿namespace Library._02_Editing;
 
 public enum FooEnum
 {
@@ -7,7 +7,7 @@ public enum FooEnum
     FooBar,
 }
 
-// Example: Add Selection for Next Occurence Alt+Shift+.
+// Add Selection for Next Occurence (Alt+Shift+.)
 public static class MultiCaret
 {
     // public static string ToDescription(this @FooEnum @enum) =>
