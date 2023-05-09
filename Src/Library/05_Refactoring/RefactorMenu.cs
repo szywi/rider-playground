@@ -1,21 +1,26 @@
 ﻿namespace Library._05_Refactoring;
 
-// Refactor this
-// Ctrl+Shift+R (Refactor this menu)
+// Refactor this (Ctrl+Shift+R)
 // Extract interface
 public sealed class RefactorMenu
 {
-    public readonly int field;
+    public int? Foo;
 
-    public string Property { get; set; }
-
+    // Introduce Field (Ctrl+R+F)
     public RefactorMenu(int foo)
     {
+        var bar = "";
     }
 
-    public void Method(string p1, string p2)
+    public void DoSomething()
     {
-        var variable = p1;
-        Console.WriteLine(variable);
+        Console.WriteLine(Foo);
     }
+
+
+}
+
+// Move to Another File (Ctrl+Shift+R/Ctrl+R+O)
+public class NewClass
+{
 }

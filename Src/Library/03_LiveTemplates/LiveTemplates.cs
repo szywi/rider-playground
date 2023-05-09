@@ -4,6 +4,8 @@
 // smeth
 // ameth
 // services
+// theory
+// fact
 public sealed class LiveTemplates
 {
 }

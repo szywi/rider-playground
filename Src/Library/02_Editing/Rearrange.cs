@@ -7,17 +7,12 @@ public sealed class Rearrange
     {
         try
         {
-            Method(true, string.Empty);
+            Console.WriteLine();
         }
         catch (Exception e)
         {
             Console.WriteLine(e);
             throw;
         }
-    }
-
-    // Change signature (Ctrl+Shift+R)
-    private static void Method(bool foo, string bar)
-    {
     }
 }

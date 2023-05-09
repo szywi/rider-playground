@@ -7,10 +7,10 @@
 public class Generation
 {
     public bool Foo { get; set; }
-    public string Bar { get; set; }
+    public Stream? Bar { get; set; }
 
     // Foreach
-    public void DoSomething(IEnumerable<int> enumerable)
+    public static void DoSomething(IEnumerable<int> enumerable)
     {
     }
 }

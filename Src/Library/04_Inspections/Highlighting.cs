@@ -7,4 +7,11 @@ public sealed class Highlighting
     {
         return null;
     }
+
+    public void DoSomethingElse()
+    {
+        return;
+
+        Console.WriteLine();
+    }
 }
