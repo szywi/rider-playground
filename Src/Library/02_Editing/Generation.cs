@@ -10,7 +10,7 @@ public class Generation
     public Stream? Bar { get; set; }
 
     // Foreach
-    public static void DoSomething(IEnumerable<int> enumerable)
+    public static void DoSomething(IEnumerable<int> enumerable, string text)
     {
     }
 }
