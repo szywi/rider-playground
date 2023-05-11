@@ -38,6 +38,7 @@ public sealed class Run
         Assert.Equal(6, result);
     }
 
+    // Continuous testing mode
     // [Fact]
     // public void TestDrivenDevelopment()
     // {
